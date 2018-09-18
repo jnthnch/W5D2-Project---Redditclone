@@ -1,0 +1,20 @@
+Rails.application.routes.draw do
+  get 'posts/new'
+  get 'posts/edit'
+  get 'posts/update'
+  get 'posts/show'
+  get 'posts/create'
+  get 'posts/destroy'
+  get 'subs/new'
+  get 'subs/edit'
+  get 'subs/update'
+  get 'subs/index'
+  get 'subs/show'
+  get 'subs/create'
+  get 'sessions/new'
+  get 'sessions/create'
+  get 'sessions/destroy'
+  get 'users/new'
+  get 'users/create'
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+end
