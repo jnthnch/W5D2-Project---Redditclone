@@ -40,7 +40,7 @@ class PostsController < ApplicationController
   end
 
   def post_params
-    params.require(:post).permit(:title)
+    params.require(:post).permit(:title, :url, :content, sub_ids: [])
   end
 
   def only_author_can_do

@@ -3,7 +3,7 @@ class CreateSubs < ActiveRecord::Migration[5.2]
     create_table :subs do |t|
       t.string :title, null: false
       t.string :description, null: false
-      t.intger :moderator_id, null: false
+      t.integer :moderator_id, null: false
 
       t.timestamps
     end
